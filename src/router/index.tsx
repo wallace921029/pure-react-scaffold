@@ -1,6 +1,6 @@
 import {ComponentType, Suspense, lazy} from 'react'
 import {Navigate, createBrowserRouter} from 'react-router-dom'
-import NormalLayout from '../layouts/NormalLayout/NormalLayout'
+import NormalLayout from '@/layouts/NormalLayout/NormalLayout'
 
 const lazyLoad = (importFunction: () => Promise<{default: ComponentType<any>}>) => {
   const Component = lazy(importFunction)

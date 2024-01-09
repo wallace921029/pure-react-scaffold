@@ -1,5 +1,5 @@
 import './styles/site-logo-with-text.scss'
-import logoImg from '../../assets/images/logo.svg'
+import logoImg from '@/assets/images/logo.svg'
 import projectPackageJson from '../../../package.json'
 
 export interface ISiteLogoWithTextProps {

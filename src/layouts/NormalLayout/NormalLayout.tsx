@@ -1,6 +1,6 @@
 import './styles/normal-layout.scss'
 
-import SiteLogoWithText from '../../components/SiteLogoWithText/SiteLogoWithText'
+import SiteLogoWithText from '@/components/SiteLogoWithText/SiteLogoWithText'
 import {Outlet} from 'react-router-dom'
 
 function NormalLayout() {

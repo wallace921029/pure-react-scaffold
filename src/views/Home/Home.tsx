@@ -1,8 +1,8 @@
 import './styles/home.scss'
 
 import {useDispatch, useSelector} from 'react-redux'
-import {RootState} from '../../store'
-import {increment, decrement} from '../../store/modules/counter-slice'
+import {RootState} from '@/store'
+import {increment, decrement} from '@/store/modules/counter-slice'
 
 function Home() {
   const countValue = useSelector((state: RootState) => state.counterSlice.value)
