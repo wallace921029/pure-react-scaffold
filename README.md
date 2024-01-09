@@ -1,5 +1,7 @@
 # pure-react-scaffold
 
+Here is a pure react scaffold with react-router and redux-toolkit only.
+
 ## Framework Official Sites
 
 - [React](https://react.dev/)
